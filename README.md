@@ -1,4 +1,4 @@
-# AI Tutor System
+# Co-intelligent Online Reasoning Agent (CORA)
 
 An AI-powered tutoring system that helps students learn through Socratic questioning and guided problem-solving. The system supports both local and OpenAI-based RAG (Retrieval-Augmented Generation) with multiple LLM provider options.
 
@@ -43,7 +43,7 @@ An AI-powered tutoring system that helps students learn through Socratic questio
 ## Project Structure
 
 ```
-oora/
+cora/
 ├── app/
 │   ├── main.py                # FastAPI application entry point
 │   ├── routes/
