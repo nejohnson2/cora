@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Class Tutor (Study){% endblock %}
+
+{% block header %}Class AI Tutor (Study Version){% endblock %}
+
+{% block note %}
+    <strong>⚠️ Research Mode:</strong> This version stores chat transcripts for a study.
+    Do not include sensitive personal information.
+{% endblock %}
+
+{% block chat_endpoint %}/api/study/chat{% endblock %}
+
+{% block reset_endpoint %}/api/study/reset{% endblock %}
+
+{% block initial_greeting %}Hi. Tell me which assignment you are working on and what you have tried so far.{% endblock %}

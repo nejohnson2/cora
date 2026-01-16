@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Class Tutor{% endblock %}
+
+{% block header %}Class AI Tutor{% endblock %}
+
+{% block note %}This version does not store your chat transcripts.{% endblock %}
+
+{% block chat_endpoint %}/api/chat{% endblock %}
+
+{% block reset_endpoint %}/api/reset{% endblock %}
+
+{% block initial_greeting %}Hi. Tell me which assignment you are working on and what you have tried so far.{% endblock %}
