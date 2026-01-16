@@ -50,3 +50,5 @@ build/
 *.backup
 *.old
 *~
+
+system_prompt.txt
